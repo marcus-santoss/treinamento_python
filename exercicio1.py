@@ -3,4 +3,4 @@ class ConversorDados:
 
 
 if __name__ == "__main__":
-    conversor = ConversorDados()
+    conv = ConversorDados()
