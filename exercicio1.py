@@ -3,7 +3,7 @@ class ConversorDados:
         self.caminho_arquivo = self._validar_nome_de_arquivo(caminho_arquivo)
         
     def _validar_nome_de_arquivo(self, caminho_arquivo):
-        # Só aceita arquivo json
+        # Só aceita arquivos do tipo json
         partes_do_arquivo = caminho_arquivo.split(".")
         tipo_arquivo = partes_do_arquivo[1]
         
